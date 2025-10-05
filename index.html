@@ -1,0 +1,457 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Aqua Sentinel La Paz — NASA Space Apps</title>
+  <meta name="description" content="Aqua Sentinel La Paz — Plan integral basado en datos geocientíficos de la NASA para transformar La Paz en una ciudad modelo de sustentabilidad." />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&family=Orbitron:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#inicio">
+        <img src="../LogoAquaSentinels.png" alt="Logo Aqua Sentinel" width="42" height="42">
+        <div class="brand-text">
+          <div class="brand-title">Aqua Sentinel</div>
+          <div class="brand-sub">La Paz · NASA Space Apps</div>
+        </div>
+      </a>
+
+      <nav class="nav" id="mainNav" aria-label="Menú principal">
+        <a href="#inicio">Aqua Sentinel La Paz</a>
+        <a href="#hackathon">NASA Space Apps</a>
+        <a href="#proyecto">Proyecto</a>
+        <a href="#datos">Datos NASA</a>
+        <a href="#plan">Plan</a>
+        <a href="#participacion">Participación</a>
+        <a href="#contacto" class="btn">Contacto</a>
+      </nav>
+
+      <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO / INICIO -->
+    <section id="inicio" class="hero">
+      <div class="hero-overlay-bg"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1>Construyendo el Futuro de <span class="accent">La Paz</span></h1>
+          <p class="lead centered">
+            Utilizando datos geocientíficos de la NASA para crear una solución integral que mejore la calidad de vida y proteja el medio ambiente en una de las ciudades más importantes de México.
+          </p>
+
+          <div class="hero-ctas">
+            <a class="primary" href="#plan">Ver Nuestro Plan</a>
+            <a class="outline" href="#participacion">Únete al Proyecto</a>
+          </div>
+
+          <div class="kpis centered">
+            <div class="kpi">
+              <div class="kpi-value" data-target="292241">0</div>
+              <div class="kpi-label">Habitantes de La Paz, Baja California</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-value" data-target="51">0</div>
+              <div class="kpi-label">Subdelegaciones Involucrados</div>
+            </div>
+            <div class="kpi">
+              <div class="kpi-value" data-target="500">0</div>
+              <div class="kpi-label">Propuestas Ciudadanas</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-media" role="img" aria-label="Vista panorámica de La Paz, México" style="background-image:url('hero-la-paz.jpg')">
+          <div class="hero-media-card">
+            <small>La Paz, México — Vista panorámica</small>
+          </div>
+        </div>
+      </div>
+
+      <!-- WHY La Paz (text centrado debajo del hero media) -->
+      <div class="container why-section">
+        <h2>¿Por qué <span class="accent">La Paz</span>?</h2>
+        <p class="centered">
+          La Paz, la capital de Baja California Sur, es una ciudad en rápido crecimiento que enfrenta desafíos ambientales significativos debido a su ubicación costera y clima árido. 
+          Con una población de aproximadamente 292,241 habitantes distribuidos en 51 subdelegaciones, la ciudad requiere soluciones innovadoras para gestionar su expansión urbana, conservar sus recursos naturales y mejorar la calidad de vida de sus residentes. 
+          Nuestro proyecto utiliza datos geocientíficos de la NASA para abordar estos desafíos mediante un enfoque integral que combina tecnología, participación ciudadana y políticas públicas efectivas.
+        </p>
+      </div>
+    </section>
+
+    <!-- HACKATHON LABEL -->
+    <section id="hackathon" class="section compact alt">
+      <div class="container centered">
+        <div class="tagline">Aqua Sentinel, La Paz</div>
+        <h2>NASA Data Hackathon</h2>
+      </div>
+    </section>
+
+    <!-- PROYECTO -->
+    <section id="proyecto" class="section">
+      <div class="container centered">
+        <div class="section-header">
+          <span class="icon" data-icon="📡" aria-hidden="true"></span>
+          <h2>Proyecto — Aqua Sentinel</h2>
+        </div>
+
+        <p class="centered">
+          Aqua Sentinel está siendo aplicado en La Paz para monitoreo costero y gestión inteligente del agua. 
+          Este proyecto integra datos satelitales con sensores in-situ, plataformas ciudadanas y dashboards para la toma de decisiones municipales.
+        </p>
+
+        <!-- icon spots for visual design -->
+        <div class="icons-row">
+          <div class="icon-card"><span class="icon" data-icon="🌊"></span><div>Monitoreo Costero</div></div>
+          <div class="icon-card"><span class="icon" data-icon="🛰️"></span><div>Datos Satelitales</div></div>
+          <div class="icon-card"><span class="icon" data-icon="📊"></span><div>Dashboards</div></div>
+        </div>
+
+        <p class="muted small">* Espacios listos para añadir iconos SVG/FontAwesome imprescindibles en la fase de integración visual.</p>
+      </div>
+    </section>
+
+    <!-- DATOS NASA -->
+    <section id="datos" class="section alt">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="icon" data-icon="🛰️"></span>
+          <h2>Datos Espaciales — NASA Earth Observation</h2>
+        </div>
+
+        <p class="centered muted">Información satelital de la NASA para análisis geoespacial y toma de decisiones basada en evidencia.</p>
+
+        <div class="grid three">
+          <article class="card centered">
+            <span class="card-icon" data-icon="🌡️"></span>
+            <h3>Temperatura Superficial</h3>
+            <p>MODIS y Landsat para identificar islas de calor urbano.</p>
+            <p class="small"><strong>Aplicación:</strong> Planificación de espacios verdes y sistemas de enfriamiento.</p>
+          </article>
+
+          <article class="card centered">
+            <span class="card-icon" data-icon="☔"></span>
+            <h3>Precipitación y Humedad</h3>
+            <p>GPM y SMAP para análisis de recursos hídricos.</p>
+            <p class="small"><strong>Aplicación:</strong> Gestión del agua y prevención de inundaciones.</p>
+          </article>
+
+          <article class="card centered">
+            <span class="card-icon" data-icon="🌿"></span>
+            <h3>Vegetación (NDVI)</h3>
+            <p>Índices de vegetación para monitoreo de áreas verdes.</p>
+            <p class="small"><strong>Aplicación:</strong> Conservación y expansión de espacios naturales.</p>
+          </article>
+
+          <article class="card centered">
+            <span class="card-icon" data-icon="🟣"></span>
+            <h3>Calidad del Aire</h3>
+            <p>OMI y TROPOMI sobre contaminantes atmosféricos.</p>
+            <p class="small"><strong>Aplicación:</strong> Políticas de transporte y zonificación industrial.</p>
+          </article>
+        </div>
+
+        <!-- MAP PLACEHOLDER -->
+        <div class="map-placeholder">
+          <!-- Aquí irá el mapa interactivo de La Paz (Mapbox / Leaflet / iframe NASA Worldview)
+               Ejemplo rápido (descomenta y ajusta si quieres un iframe de ejemplo):
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!... (marcador La Paz)" style="width:100%;height:400px;border:0;"></iframe>
+          -->
+          <div class="map-note">[Placeholder mapa interactivo]</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DESAFÍOS -->
+    <section id="desafios" class="section">
+      <div class="container centered">
+        <div class="section-header">
+          <span class="icon" data-icon="⚠️"></span>
+          <h2>Principales Desafíos Urbanos</h2>
+        </div>
+
+        <div class="grid three">
+          <div class="card centered">
+            <h3>Crecimiento Urbano Acelerado</h3>
+            <p>La Paz experimenta una expansión urbana rápida que requiere planificación sostenible.</p>
+          </div>
+
+          <div class="card centered">
+            <h3>Espacios Verdes Limitados</h3>
+            <p>Necesidad de crear y preservar áreas verdes para mejorar la calidad del aire.</p>
+          </div>
+
+          <div class="card centered">
+            <h3>Gestión de Recursos Hídricos</h3>
+            <p>Optimización del uso del agua considerando el clima árido de la región.</p>
+          </div>
+
+          <div class="card centered">
+            <h3>Calidad del Aire</h3>
+            <p>Monitoreo y mejora de la calidad del aire urbano mediante datos satelitales.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PLAN -->
+    <section id="plan" class="section alt">
+      <div class="container">
+        <div class="section-header centered">
+          <span class="icon" data-icon="🗺️"></span>
+          <h2>Nuestro Plan de Acción — 23 meses</h2>
+        </div>
+
+        <p class="centered muted">Estrategia integral para transformar La Paz en una ciudad modelo de sustentabilidad urbana basada en ciencia.</p>
+
+        <div class="timeline">
+          <div class="timeline-item">
+            <div class="time-pill">Fase 1 — 2 meses</div>
+            <div class="time-body">
+              <h4>Análisis y Diagnóstico</h4>
+              <ul>
+                <li>Análisis de datos satelitales históricos de La Paz</li>
+                <li>Identificación de zonas de crecimiento urbano</li>
+                <li>Evaluación de calidad del aire y temperatura</li>
+                <li>Mapeo de recursos hídricos y vegetación</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="time-pill">Fase 2 — 3 meses</div>
+            <div class="time-body">
+              <h4>Diseño de Soluciones</h4>
+              <ul>
+                <li>Desarrollo de corredores verdes urbanos</li>
+                <li>Diseño de sistemas de captación de agua</li>
+                <li>Planificación de zonas de desarrollo sostenible</li>
+                <li>Creación de protocolos de monitoreo continuo</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="time-pill">Fase 3 — 6 meses</div>
+            <div class="time-body">
+              <h4>Implementación Piloto</h4>
+              <ul>
+                <li>Proyectos piloto en 3 zonas de la ciudad</li>
+                <li>Instalación de sensores de monitoreo</li>
+                <li>Programas de participación ciudadana</li>
+                <li>Capacitación a funcionarios municipales</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="timeline-item">
+            <div class="time-pill">Fase 4 — 12 meses</div>
+            <div class="time-body">
+              <h4>Expansión y Evaluación</h4>
+              <ul>
+                <li>Expansión a toda la ciudad</li>
+                <li>Evaluación de impacto mediante datos NASA</li>
+                <li>Ajustes basados en resultados</li>
+                <li>Documentación y replicabilidad</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <h3 class="centered">Soluciones Principales</h3>
+        <div class="grid three">
+          <div class="card centered">
+            <h4>Red de Corredores Verdes</h4>
+            <p>Conectar espacios naturales existentes con nuevas áreas verdes usando NDVI para optimizar ubicaciones. Impacto esperado: reducción de 3–5°C en temperatura urbana.</p>
+          </div>
+
+          <div class="card centered">
+            <h4>Sistema Inteligente de Agua</h4>
+            <p>Captación y reutilización basada en GPM/SMAP. Impacto esperado: 30% más eficiencia en uso del agua.</p>
+          </div>
+
+          <div class="card centered">
+            <h4>Zonificación Climática</h4>
+            <p>Desarrollo adaptado al clima local con datos de temperatura y viento. Impacto esperado: 40% reducción en consumo energético.</p>
+          </div>
+
+          <div class="card centered">
+            <h4>Plataforma Ciudadana</h4>
+            <p>App para que residentes reporten problemas ambientales y monitoreen el progreso. Impacto esperado: participación directa de 10,000+ ciudadanos.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TECNOLOGÍA -->
+    <section id="tec" class="section">
+      <div class="container centered">
+        <div class="section-header">
+          <span class="icon" data-icon="⚙️"></span>
+          <h2>Tecnología para el Cambio</h2>
+        </div>
+        <p class="muted centered">Dashboards en tiempo real, APIs abiertas, alertas automáticas y plataforma de crowdsourcing.</p>
+
+        <div class="grid two">
+          <div class="card centered">
+            <h4>Dashboards en tiempo real</h4>
+            <p>Visualizaciones para autoridades municipales con métricas de temperatura, calidad del aire y agua.</p>
+          </div>
+
+          <div class="card centered">
+            <h4>APIs abiertas</h4>
+            <p>Interfaces para desarrolladores locales que deseen construir nuevas herramientas con datos NASA.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PARTICIPACIÓN -->
+    <section id="participacion" class="section alt">
+      <div class="container centered">
+        <div class="section-header">
+          <span class="icon" data-icon="👥"></span>
+          <h2>Participación Ciudadana</h2>
+        </div>
+
+        <div class="card">
+          <h4 style="margin:0 0 8px">Participación ciudadana</h4>
+          <p style="margin:0 0 10px;color:var(--muted)">Formulario para que residentes reporten problemas, suban fotos y propongan microproyectos en su colonia.</p>
+
+          <form id="report-form">
+            <label style="display:block;font-weight:600;margin-bottom:6px">Tipo de reporte</label>
+            <select id="tipo" style="width:100%;padding:8px;border-radius:8px;margin-bottom:8px">
+              <option>Falta de agua</option>
+              <option>Inundación</option>
+              <option>Falta de áreas verdes</option>
+              <option>Erosión costera</option>
+            </select>
+            <label style="display:block;font-weight:600;margin-bottom:6px">Descripción</label>
+            <textarea id="desc" style="width:100%;padding:8px;border-radius:8px;height:84px;margin-bottom:8px"></textarea>
+            <button type="submit" style="width:100%;padding:10px;border-radius:10px;border:none;color:rgb(0, 145, 255);font-weight:700">Enviar reporte</button>
+          </form>
+          <p id="form-msg" style="color:green;display:none;margin-top:8px">Reporte enviado — gracias.</p>
+        </div>
+
+        <p class="muted centered">Involucrando a la comunidad en las decisiones y validando datos con observaciones locales.</p>
+
+        <div class="grid three stats-cards">
+          <div class="card stat centered">
+            <h3>10,000+</h3>
+            <p>Ciudadanos Participantes</p>
+          </div>
+          <div class="card stat centered">
+            <h3>15</h3>
+            <p>Departamentos Involucrados</p>
+          </div>
+          <div class="card stat centered">
+            <h3>500+</h3>
+            <p>Propuestas Ciudadanas</p>
+          </div>
+        </div>
+
+        <h3 class="centered">Próximas herramientas de participación</h3>
+        <ul class="centered small">
+          <li>App Móvil AquaSentinel para reportes en tiempo real</li>
+          <li>Foros digitales por colonia</li>
+          <li>Votaciones ciudadanas y mapeo colaborativo</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- INSTITUCIONES -->
+    <section id="instituciones" class="section">
+      <div class="container centered">
+        <div class="section-header">
+          <span class="icon" data-icon="🏛️"></span>
+          <h2>Rol de las Instituciones Municipales</h2>
+        </div>
+
+        <div class="grid two">
+          <div class="card centered">
+            <h4>Secretaría de Desarrollo Urbano</h4>
+            <p>Zonificación y normativas para construcción resiliente al clima.</p>
+            <p class="small"><strong>Acciones:</strong> Revisar desarrollos, establecer normativas, monitorear cumplimiento ambiental.</p>
+          </div>
+
+          <div class="card centered">
+            <h4>Departamento de Parques y Jardines</h4>
+            <p>Expansión y mantenimiento de espacios verdes utilizando datos de vegetación.</p>
+            <p class="small"><strong>Acciones:</strong> Identificar zonas prioritarias, optimizar riego, mantener inventario digital.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section">
+      <div class="container">
+        <h2 class="centered">Contacto</h2>
+        <p class="muted centered">La Paz, Baja California Sur, México — <a href="mailto:info@aquasentinels.mx">info@aquasentinels.mx</a> — <a href="tel:+52 55 1234 5678">+52 55 1234 5678</a></p>
+
+        <div class="grid two">
+          <form id="contactForm" class="card contact-form" novalidate>
+            <label for="name">Nombre</label>
+            <input id="name" name="name" type="text" required placeholder="Tu nombre completo" />
+
+            <label for="email">Correo</label>
+            <input id="email" name="email" type="email" required placeholder="tu@correo.com" />
+
+            <label for="message">Mensaje</label>
+            <textarea id="message" name="message" rows="5" required placeholder="¿Cómo te gustaría participar?"></textarea>
+
+            <div class="form-row">
+              <button type="submit" class="primary">Enviar Mensaje</button>
+              <button type="reset" class="outline">Limpiar</button>
+            </div>
+
+            <p class="form-note" id="formNote" aria-live="polite"></p>
+          </form>
+
+          <div class="card contact-info">
+            <h3>Información</h3>
+            <p><strong>Aqua Sentinel La Paz</strong><br>La Paz, México</p>
+            <p><strong>Email:</strong> <a href="mailto:info@aquasentinels.mx">info@aquasentinels.mx</a></p>
+            <p><strong>Tel:</strong> <a href="tel:+52 55 1234 5678">+52 55 1234 5678</a></p>
+
+            <h4>Enlaces Rápidos</h4>
+            <ul>
+              <li><a href="#proyecto">Sobre el Proyecto</a></li>
+              <li><a href="#datos">Datos NASA</a></li>
+              <li><a href="#plan">Plan de Acción</a></li>
+            </ul>
+
+            <h4>Recursos NASA</h4>
+            <ul>
+              <li><a href="https://www.meteomatics.com/en/meteomatics-and-nasa-space-apps-challenge/" target="_blank" rel="noopener">Meteomatics Weather API</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div>
+          <strong>Aqua Sentinel La Paz</strong><br>
+          NASA Space Apps · La Paz, Baja California Sur
+        </div>
+        <div class="footer-right">
+          <small>© 2025 Aqua Sentinel La Paz. Datos cortesía de Meteomatics Weather API.</small>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

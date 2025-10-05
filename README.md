@@ -24,9 +24,9 @@ Características:
 - Diseño accesible y adaptable para todo tipo de usuarios.
 
 Tecnologías utilizadas:
-- HTML5, CSS3, JavaScript.
+- HTML5, CSS3, JavaScript, Python, Node.js, Google Cloud.
 - Diseño UI/UX minimalista con temática futurista.
-- Tipografías: Inter y Orbitron.
+- Tipografías: Arial, Helvetica.
 
 Estructura del proyecto:
 index.html – Página principal.  
@@ -36,11 +36,14 @@ assets/ – Imágenes, íconos y recursos visuales.
 
 Equipo: Fractals  
 Integrantes:
-- Diego Del Razo – Desarrollo web y diseño UI/UX.
-- [Agregar los demás integrantes aquí.]
+-Diego del Razo – UNAM | Frontend & UX/UI
+-Roberto Aburto – UNAM | Enviromental & Data Analyst
+-Fernando Canchola – UNAM | Data Analyst & Backend
+-Guillermo Hernández – UNAM | Data Analyst
+-Christian Romero – UNAM | Frontend
+
 
 Licencia:
 Proyecto bajo licencia MIT. Libre para uso, modificación y distribución citando a los autores originales.
 
-Frase del proyecto:
-“From Space to Coastlines — Turning Data into Sustainability.”
+# “From Space to Coastlines — Turning Data into Sustainability.” #

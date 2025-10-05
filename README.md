@@ -1,8 +1,10 @@
-AquaSentinel: Smart Water & Coastal Monitoring  
-Tagline: “Data from Space, Water for the Future.”
+
+# “From Space to Coastlines — Turning Data into Sustainability.” #
+# AquaSentinel: Smart Water & Coastal Monitoring  
+“Data from Space, Water for the Future.”
 
 Descripción:
-AquaSentinel es una plataforma web que aprovecha datos geocientíficos de la NASA para monitorear el agua y las zonas costeras de La Paz, México. Busca generar ciudades más saludables, resilientes y sostenibles a través del análisis de información satelital y urbana.
+AquaSentinel es una plataforma web que aprovecha datos geocientíficos de la NASA para monitorear el agua y las zonas costeras de La Paz, Baja California, México. Busca generar ciudades más saludables, resilientes y sostenibles a través del análisis de información satelital y urbana.
 
 Problema:
 La Paz enfrenta una crisis hídrica y costera:
@@ -46,4 +48,3 @@ Integrantes:
 Licencia:
 Proyecto bajo licencia MIT. Libre para uso, modificación y distribución citando a los autores originales.
 
-# “From Space to Coastlines — Turning Data into Sustainability.” #
